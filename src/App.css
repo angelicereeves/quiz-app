@@ -1,0 +1,76 @@
+/* App.css */
+/* General styles for the quiz application, many being used for multiple pages */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #979797;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgb(214, 171, 231);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+button {
+  background-color: #8e329f;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #a917459c;
+}
+
+p {
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 35px;
+}
